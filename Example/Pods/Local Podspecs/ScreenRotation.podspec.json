@@ -1,0 +1,24 @@
+{
+  "name": "ScreenRotation",
+  "version": "0.1.0",
+  "summary": "一款控制屏幕旋转的工具类",
+  "description": "一款控制屏幕旋转的工具类 旋转后的布局样式自己处理。",
+  "homepage": "https://github.com/luhua100/ScreenRotation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luhua100": "luhua2245@163.com"
+  },
+  "source": {
+    "git": "https://github.com/luhua100/ScreenRotation.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ScreenRotation/Classes/**/*",
+  "swift_version": "5.0"
+}

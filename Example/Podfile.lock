@@ -1,0 +1,16 @@
+PODS:
+  - ScreenRotation (0.1.0)
+
+DEPENDENCIES:
+  - ScreenRotation (from `../`)
+
+EXTERNAL SOURCES:
+  ScreenRotation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScreenRotation: b917095b92afd2b9133cc650e81840e458970fb3
+
+PODFILE CHECKSUM: 8be84a414a039813893913f0ac6bebcf715f7602
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D8FA11505DC29237FAA788F5E197B5 /* Pods-ScreenRotation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DED1A49354164D12466D888C9A1F0AD6 /* Pods-ScreenRotation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E513140A8E216D47937DAF045716DEF /* HZScreenRotaionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD74ACDF596D5858420081792D9FDD56 /* HZScreenRotaionManager.swift */; };
+		355EA7E17B2A2E1360C983489FC18480 /* Pods-ScreenRotation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F18109B463F918F495375F8B8335AD8 /* Pods-ScreenRotation_Tests-dummy.m */; };
+		4D60BE83140EE0E640AF0B01CF486981 /* ScreenRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E67ACBE2231E8B222C4585B539E98B3D /* ScreenRotation-dummy.m */; };
+		7048D388BDE15F391D34616451C5EF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		899AD402F0659AA5443E11EC67BE10DA /* Pods-ScreenRotation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CC68A059727E18464AEAF3B39D4D3B /* Pods-ScreenRotation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9502C7622EB28C2D008C692EAB97B6BC /* Pods-ScreenRotation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B01B80542691B83B6830C2F65164483 /* Pods-ScreenRotation_Example-dummy.m */; };
+		BEFCFD37A8DE2ABC7F3F4557F65F84D4 /* ScreenRotation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C432A29FA684344C3B17CAF7E27804D1 /* ScreenRotation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC5E96DE9C230AC19D4F83AD0C93C15F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E9E3E3AF9A5B7A06C490C893F804E6F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E810EF6EFE06D0488D267E723E6471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80989EFB65A877552B4EC4BDC21D277A;
+			remoteInfo = "Pods-ScreenRotation_Example";
+		};
+		650DE5AF1BC704B3FB4FDACD62E0A1F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A28DDE05BEC84766F625AD08F38DB7;
+			remoteInfo = ScreenRotation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D9C36F3D8544711B5452562DA87B7A /* Pods-ScreenRotation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenRotation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04CC68A059727E18464AEAF3B39D4D3B /* Pods-ScreenRotation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenRotation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		06C2EC1882A05AFA4E2FC4EFFC15586B /* Pods-ScreenRotation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRotation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		07DCE6C436D3BAEC4240E1D508AD82F8 /* ScreenRotation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenRotation.debug.xcconfig; sourceTree = "<group>"; };
+		09D1D1D240F570D184D138C85C7FD038 /* Pods-ScreenRotation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRotation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		13D39125F48FACA6786EB7677DFE9783 /* Pods-ScreenRotation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRotation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1F09D53EDE23690F7872D3A1DC0E48F4 /* ScreenRotation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScreenRotation.release.xcconfig; sourceTree = "<group>"; };
+		30805BD0055050F65BE210E28B3A9729 /* Pods-ScreenRotation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRotation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		40694798F3A6B317926F0E3A918D947F /* Pods-ScreenRotation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenRotation_Tests.modulemap"; sourceTree = "<group>"; };
+		420CC537EE0A5277824344ED40F4D66B /* ScreenRotation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScreenRotation.modulemap; sourceTree = "<group>"; };
+		444DBB124E556195479B51C77D0B9330 /* Pods-ScreenRotation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenRotation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B01B80542691B83B6830C2F65164483 /* Pods-ScreenRotation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenRotation_Example-dummy.m"; sourceTree = "<group>"; };
+		603B784BDC12D95FB59B2136FA9A053E /* Pods-ScreenRotation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRotation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		63F712D1A3378E4A13F337E9C07F309A /* Pods-ScreenRotation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRotation_Tests-Info.plist"; sourceTree = "<group>"; };
+		6F18109B463F918F495375F8B8335AD8 /* Pods-ScreenRotation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenRotation_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8BD81ED33E5DCC1B9629F61994C291EB /* ScreenRotation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ScreenRotation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC69A4D1BD8264975C17992B5367BB3E /* ScreenRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenRotation-prefix.pch"; sourceTree = "<group>"; };
+		AE0AF84561D339C304568AF8905B3B68 /* Pods-ScreenRotation_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScreenRotation_Tests"; path = Pods_ScreenRotation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA78D6B95428DFFCFCFDA6C4855550F0 /* Pods-ScreenRotation_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ScreenRotation_Example"; path = Pods_ScreenRotation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE638FCCCB73691F85B4E6887EEE8D7C /* Pods-ScreenRotation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenRotation_Example.modulemap"; sourceTree = "<group>"; };
+		C06D3E2A1C20A22C5046DF7EA94FB9DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C432A29FA684344C3B17CAF7E27804D1 /* ScreenRotation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScreenRotation-umbrella.h"; sourceTree = "<group>"; };
+		C8BBD487A74AC70488F9A4F26AF3638B /* Pods-ScreenRotation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRotation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC61DA6525E284598B0CBB761A29FB16 /* ScreenRotation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScreenRotation-Info.plist"; sourceTree = "<group>"; };
+		DED1A49354164D12466D888C9A1F0AD6 /* Pods-ScreenRotation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenRotation_Example-umbrella.h"; sourceTree = "<group>"; };
+		E024A4A6A6B277B28DA24F85D4828140 /* ScreenRotation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScreenRotation; path = ScreenRotation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67ACBE2231E8B222C4585B539E98B3D /* ScreenRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScreenRotation-dummy.m"; sourceTree = "<group>"; };
+		F49CE23193431A7325152194B54B718D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F61F043049B01C42B246F87E25529D05 /* Pods-ScreenRotation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRotation_Example-Info.plist"; sourceTree = "<group>"; };
+		FD74ACDF596D5858420081792D9FDD56 /* HZScreenRotaionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HZScreenRotaionManager.swift; path = ScreenRotation/Classes/HZScreenRotaionManager.swift; sourceTree = "<group>"; };
+		FE10DC748D6E718C315FDE86B7665CFB /* Pods-ScreenRotation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRotation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D19F5F2B517E1A1C0B44327B6D60DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5E96DE9C230AC19D4F83AD0C93C15F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586F243D5BA3619FC843A0F421D4121D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E3E3AF9A5B7A06C490C893F804E6F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB553D2FA17D99336D67183B1B6496A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7048D388BDE15F391D34616451C5EF13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47FA2E1B051F9587BD4D2043CDDF5348 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				420CC537EE0A5277824344ED40F4D66B /* ScreenRotation.modulemap */,
+				E67ACBE2231E8B222C4585B539E98B3D /* ScreenRotation-dummy.m */,
+				DC61DA6525E284598B0CBB761A29FB16 /* ScreenRotation-Info.plist */,
+				AC69A4D1BD8264975C17992B5367BB3E /* ScreenRotation-prefix.pch */,
+				C432A29FA684344C3B17CAF7E27804D1 /* ScreenRotation-umbrella.h */,
+				07DCE6C436D3BAEC4240E1D508AD82F8 /* ScreenRotation.debug.xcconfig */,
+				1F09D53EDE23690F7872D3A1DC0E48F4 /* ScreenRotation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScreenRotation";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75A69A3DACD91625963616F8B23A805E /* Pods-ScreenRotation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BE638FCCCB73691F85B4E6887EEE8D7C /* Pods-ScreenRotation_Example.modulemap */,
+				444DBB124E556195479B51C77D0B9330 /* Pods-ScreenRotation_Example-acknowledgements.markdown */,
+				603B784BDC12D95FB59B2136FA9A053E /* Pods-ScreenRotation_Example-acknowledgements.plist */,
+				5B01B80542691B83B6830C2F65164483 /* Pods-ScreenRotation_Example-dummy.m */,
+				09D1D1D240F570D184D138C85C7FD038 /* Pods-ScreenRotation_Example-frameworks.sh */,
+				F61F043049B01C42B246F87E25529D05 /* Pods-ScreenRotation_Example-Info.plist */,
+				DED1A49354164D12466D888C9A1F0AD6 /* Pods-ScreenRotation_Example-umbrella.h */,
+				FE10DC748D6E718C315FDE86B7665CFB /* Pods-ScreenRotation_Example.debug.xcconfig */,
+				30805BD0055050F65BE210E28B3A9729 /* Pods-ScreenRotation_Example.release.xcconfig */,
+			);
+			name = "Pods-ScreenRotation_Example";
+			path = "Target Support Files/Pods-ScreenRotation_Example";
+			sourceTree = "<group>";
+		};
+		766F7879DA9148BAB9FF94DEEF2019F4 /* ScreenRotation */ = {
+			isa = PBXGroup;
+			children = (
+				FD74ACDF596D5858420081792D9FDD56 /* HZScreenRotaionManager.swift */,
+				D14882E3A4A7FD17493822CF3BD50D10 /* Pod */,
+				47FA2E1B051F9587BD4D2043CDDF5348 /* Support Files */,
+			);
+			name = ScreenRotation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		83279900AC791043A795D9DE19D1F0D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				766F7879DA9148BAB9FF94DEEF2019F4 /* ScreenRotation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A110A67391FCF776CA2D17AE84C9109D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A69A3DACD91625963616F8B23A805E /* Pods-ScreenRotation_Example */,
+				FCD60EA4EA7F2B4D6ACBA65BEBD77483 /* Pods-ScreenRotation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				83279900AC791043A795D9DE19D1F0D0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DAD4FC17FE25AE69DE56A44169AAF3AB /* Products */,
+				A110A67391FCF776CA2D17AE84C9109D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D14882E3A4A7FD17493822CF3BD50D10 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C06D3E2A1C20A22C5046DF7EA94FB9DC /* LICENSE */,
+				F49CE23193431A7325152194B54B718D /* README.md */,
+				8BD81ED33E5DCC1B9629F61994C291EB /* ScreenRotation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD4FC17FE25AE69DE56A44169AAF3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA78D6B95428DFFCFCFDA6C4855550F0 /* Pods-ScreenRotation_Example */,
+				AE0AF84561D339C304568AF8905B3B68 /* Pods-ScreenRotation_Tests */,
+				E024A4A6A6B277B28DA24F85D4828140 /* ScreenRotation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD60EA4EA7F2B4D6ACBA65BEBD77483 /* Pods-ScreenRotation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				40694798F3A6B317926F0E3A918D947F /* Pods-ScreenRotation_Tests.modulemap */,
+				02D9C36F3D8544711B5452562DA87B7A /* Pods-ScreenRotation_Tests-acknowledgements.markdown */,
+				C8BBD487A74AC70488F9A4F26AF3638B /* Pods-ScreenRotation_Tests-acknowledgements.plist */,
+				6F18109B463F918F495375F8B8335AD8 /* Pods-ScreenRotation_Tests-dummy.m */,
+				63F712D1A3378E4A13F337E9C07F309A /* Pods-ScreenRotation_Tests-Info.plist */,
+				04CC68A059727E18464AEAF3B39D4D3B /* Pods-ScreenRotation_Tests-umbrella.h */,
+				06C2EC1882A05AFA4E2FC4EFFC15586B /* Pods-ScreenRotation_Tests.debug.xcconfig */,
+				13D39125F48FACA6786EB7677DFE9783 /* Pods-ScreenRotation_Tests.release.xcconfig */,
+			);
+			name = "Pods-ScreenRotation_Tests";
+			path = "Target Support Files/Pods-ScreenRotation_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09AD98BA4A62F2B9880D5C1A9861C7AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFCFD37A8DE2ABC7F3F4557F65F84D4 /* ScreenRotation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5729A3A8D385478C1306A2CA3727D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899AD402F0659AA5443E11EC67BE10DA /* Pods-ScreenRotation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E275245EBB98BAC5D3618E870EDC577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D8FA11505DC29237FAA788F5E197B5 /* Pods-ScreenRotation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80989EFB65A877552B4EC4BDC21D277A /* Pods-ScreenRotation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AA4A326CD97C79DA113A291F96AFCD /* Build configuration list for PBXNativeTarget "Pods-ScreenRotation_Example" */;
+			buildPhases = (
+				7E275245EBB98BAC5D3618E870EDC577 /* Headers */,
+				C87081141F19A96FBB3C61FF31AC910C /* Sources */,
+				586F243D5BA3619FC843A0F421D4121D /* Frameworks */,
+				5444CE350858B7D1C435F69B83FAE703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B33A1996DD5E1E7FA741C8C92BA81EA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenRotation_Example";
+			productName = Pods_ScreenRotation_Example;
+			productReference = BA78D6B95428DFFCFCFDA6C4855550F0 /* Pods-ScreenRotation_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		829F3243B029DB0CA974D58CD1E10DBE /* Pods-ScreenRotation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4CB9076B73DFAF639F34AC89AF8926 /* Build configuration list for PBXNativeTarget "Pods-ScreenRotation_Tests" */;
+			buildPhases = (
+				1E5729A3A8D385478C1306A2CA3727D2 /* Headers */,
+				63246DD7CC9968F5D60431CDE91A534A /* Sources */,
+				FBB553D2FA17D99336D67183B1B6496A /* Frameworks */,
+				7E4E82EAF06352F812A2961634BAAD8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DDA95D81E69743C2638FCD336A09766 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenRotation_Tests";
+			productName = Pods_ScreenRotation_Tests;
+			productReference = AE0AF84561D339C304568AF8905B3B68 /* Pods-ScreenRotation_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8A28DDE05BEC84766F625AD08F38DB7 /* ScreenRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29BC58EA10182A02B21B7D4DB179834 /* Build configuration list for PBXNativeTarget "ScreenRotation" */;
+			buildPhases = (
+				09AD98BA4A62F2B9880D5C1A9861C7AC /* Headers */,
+				F89AE0A1AEC1F720ABA071CE9D460DC6 /* Sources */,
+				48D19F5F2B517E1A1C0B44327B6D60DE /* Frameworks */,
+				5A4DC687336691BA4B1F8E20AF5C3099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenRotation;
+			productName = ScreenRotation;
+			productReference = E024A4A6A6B277B28DA24F85D4828140 /* ScreenRotation */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DAD4FC17FE25AE69DE56A44169AAF3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80989EFB65A877552B4EC4BDC21D277A /* Pods-ScreenRotation_Example */,
+				829F3243B029DB0CA974D58CD1E10DBE /* Pods-ScreenRotation_Tests */,
+				E8A28DDE05BEC84766F625AD08F38DB7 /* ScreenRotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5444CE350858B7D1C435F69B83FAE703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4DC687336691BA4B1F8E20AF5C3099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4E82EAF06352F812A2961634BAAD8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63246DD7CC9968F5D60431CDE91A534A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355EA7E17B2A2E1360C983489FC18480 /* Pods-ScreenRotation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87081141F19A96FBB3C61FF31AC910C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9502C7622EB28C2D008C692EAB97B6BC /* Pods-ScreenRotation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89AE0A1AEC1F720ABA071CE9D460DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E513140A8E216D47937DAF045716DEF /* HZScreenRotaionManager.swift in Sources */,
+				4D60BE83140EE0E640AF0B01CF486981 /* ScreenRotation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DDA95D81E69743C2638FCD336A09766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ScreenRotation_Example";
+			target = 80989EFB65A877552B4EC4BDC21D277A /* Pods-ScreenRotation_Example */;
+			targetProxy = 32E810EF6EFE06D0488D267E723E6471 /* PBXContainerItemProxy */;
+		};
+		B33A1996DD5E1E7FA741C8C92BA81EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ScreenRotation;
+			target = E8A28DDE05BEC84766F625AD08F38DB7 /* ScreenRotation */;
+			targetProxy = 650DE5AF1BC704B3FB4FDACD62E0A1F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		917B2B771193C96D4228E45C67BAB11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C2EC1882A05AFA4E2FC4EFFC15586B /* Pods-ScreenRotation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenRotation_Tests/Pods-ScreenRotation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenRotation_Tests/Pods-ScreenRotation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D89DDF201B6DEBAFE09B38E801CDE032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE10DC748D6E718C315FDE86B7665CFB /* Pods-ScreenRotation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenRotation_Example/Pods-ScreenRotation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenRotation_Example/Pods-ScreenRotation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEF2F210343215B5E462B86092F7CDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D39125F48FACA6786EB7677DFE9783 /* Pods-ScreenRotation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenRotation_Tests/Pods-ScreenRotation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenRotation_Tests/Pods-ScreenRotation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEF52E88A71EE3070192D7ED38F885D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DCE6C436D3BAEC4240E1D508AD82F8 /* ScreenRotation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenRotation/ScreenRotation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenRotation/ScreenRotation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScreenRotation/ScreenRotation.modulemap";
+				PRODUCT_MODULE_NAME = ScreenRotation;
+				PRODUCT_NAME = ScreenRotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F65203AD04987350459B7FD30D4E0CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30805BD0055050F65BE210E28B3A9729 /* Pods-ScreenRotation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScreenRotation_Example/Pods-ScreenRotation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScreenRotation_Example/Pods-ScreenRotation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA73D981050227AE8D9FEF8ECDBB9B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F09D53EDE23690F7872D3A1DC0E48F4 /* ScreenRotation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScreenRotation/ScreenRotation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScreenRotation/ScreenRotation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScreenRotation/ScreenRotation.modulemap";
+				PRODUCT_MODULE_NAME = ScreenRotation;
+				PRODUCT_NAME = ScreenRotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C4CB9076B73DFAF639F34AC89AF8926 /* Build configuration list for PBXNativeTarget "Pods-ScreenRotation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917B2B771193C96D4228E45C67BAB11C /* Debug */,
+				DEF2F210343215B5E462B86092F7CDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AA4A326CD97C79DA113A291F96AFCD /* Build configuration list for PBXNativeTarget "Pods-ScreenRotation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89DDF201B6DEBAFE09B38E801CDE032 /* Debug */,
+				F65203AD04987350459B7FD30D4E0CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29BC58EA10182A02B21B7D4DB179834 /* Build configuration list for PBXNativeTarget "ScreenRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF52E88A71EE3070192D7ED38F885D2 /* Debug */,
+				FA73D981050227AE8D9FEF8ECDBB9B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
